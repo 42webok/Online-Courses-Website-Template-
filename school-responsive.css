@@ -1,0 +1,515 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* body{
+        background-color: rgb(215, 205, 11);
+    } */
+
+
+    /* form  */
+    .page-text {
+        margin-top: 180px;
+    }
+
+    .page-text h2 {
+        font-size: 45px;
+    }
+
+    .page-text p {
+        color: aliceblue;
+        font-size: 14px;
+    }
+
+    .page-text .inpt {
+        padding: 10px 17px;
+        border-radius: 0;
+        outline: none;
+    }
+
+    .page-text .bt-2 {
+        padding: 6px 2px;
+        border-radius: 0;
+    }
+
+    .info-text {
+        margin-top: 100px;
+    }
+
+    /* Section-1 */
+    #section-1 {
+        margin-top: 50%;
+    }
+
+    #section-1 .section-text {
+        text-align: center;
+    }
+
+    #section-1 .section-text h2 {
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    #section-1 .section-text p {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    /* section 2 input section */
+    #section-2 .bag-txt {
+
+        font-size: 31px;
+        padding: 26px;
+    }
+
+    #section-2 .inpt-2 {
+        margin-top: 15px;
+        padding: 9px 5px;
+        outline: none;
+        border: none;
+        background-color: rgb(190, 190, 190);
+
+    }
+
+    #section-2 .inpt-2::placeholder {
+        font-style: italic;
+
+    }
+
+    #section-2 .btt-2 {
+        display: block;
+        padding: 5px 9px;
+        border-radius: 0;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    /* section 3 text */
+    #section-3 {
+        margin-top: 10%;
+        color: white;
+    }
+
+    #section-3 h2 {
+        font-size: 44px;
+        padding: 4px;
+    }
+
+    #section-3 .setup {
+        background-color: white;
+        width: 250px;
+        margin: auto;
+        display: block;
+    }
+
+    #section-3 form .inpt-3 {
+        padding: 8px 13px;
+        border: none;
+        outline: none;
+        margin: 10px;
+        background-color: rgb(223, 214, 214);
+    }
+
+    /* section-4 */
+    #section-4 .set-4-text h2 {
+        font-size: 42px;
+    }
+
+    #section-4 .set-4-text p {
+        color: rgb(51, 50, 50);
+        font-size: 15px;
+    }
+
+    #section-4 .set-4-text .btn-4 {
+        border-radius: 0;
+        font-size: 20px;
+        padding: 8px 30px;
+        margin-bottom: 20px;
+    }
+
+    /* footer */
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* body{
+        background-color: rgb(201, 9, 201);
+    } */
+
+    /* form  */
+    .page-text {
+        margin-top: 200px;
+    }
+
+    .page-text .inpt {
+        padding: 12px 20px;
+        border-radius: 0;
+        outline: none;
+    }
+
+    .page-text .bt-2 {
+        padding: 7px 3px;
+        border-radius: 0;
+    }
+
+    .info-text {
+        margin-top: 100px;
+    }
+
+    /* Section-1 */
+    #section-1 {
+        margin-top: 35%;
+    }
+
+    #section-1 .section-text {
+        text-align: center;
+    }
+
+    #section-1 .section-text h2 {
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    #section-1 .section-text p {
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    /* section 2 input section */
+    #section-2 .bag-txt {
+
+        font-size: 35px;
+        padding: 26px;
+    }
+
+    #section-2 .inpt-2 {
+        margin-top: 15px;
+        padding: 10px 20px;
+        outline: none;
+        border: none;
+        background-color: rgb(190, 190, 190);
+
+    }
+
+    #section-2 .inpt-2::placeholder {
+        font-style: italic;
+
+    }
+
+    #section-2 .btt-2 {
+        padding: 5px 9px;
+        border-radius: 0;
+        margin-top: 8px;
+    }
+
+    /* section 3 text */
+    #section-3 {
+        margin-top: 10%;
+        color: white;
+    }
+
+    #section-3 .row {
+        background-color: #ed3245;
+    }
+
+    #section-3 .text-3 {
+        padding: 25px;
+    }
+
+    #section-3 h2 {
+        font-size: 50px;
+        padding: 4px;
+    }
+
+    #section-3 p {
+        margin-top: 8px;
+        padding: 4px;
+    }
+
+    #section-3 .setup {
+        background-color: white;
+        width: 400px;
+        margin: auto;
+        display: block;
+    }
+
+    #section-3 form .inpt-3 {
+        padding: 10px 55px;
+        border: none;
+        outline: none;
+        margin: 10px;
+        background-color: rgb(223, 214, 214);
+    }
+
+    #section-3 form .inpt-3::placeholder {
+        font-style: italic;
+    }
+
+    #section-3 form .btt-2 {
+        border-radius: 0;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    #section-3 form .btn-11 {
+        border-radius: 0;
+        margin-left: 10px;
+    }
+
+    #section-3 .set-3-img {
+        height: 100%;
+    }
+
+    /* section-4 */
+    #section-4 {
+        margin-top: 9%;
+    }
+
+    #section-4 .set-4-text {
+        padding: 10px;
+    }
+
+    #section-4 .set-4-text h2 {
+        font-size: 50px;
+    }
+
+    #section-4 .set-4-text p {
+        color: rgb(51, 50, 50);
+    }
+
+    #section-4 .set-4-text .btn-4 {
+        border-radius: 0;
+        font-size: 20px;
+        padding: 9px 35px;
+        margin-bottom: 20px;
+    }
+
+    /* footer */
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* body{
+        background-color: rgb(204, 25, 16);
+    
+    } */
+
+    /* form  */
+    .page-text .inpt {
+        padding: 14px 30px;
+        border-radius: 0;
+        outline: none;
+    }
+
+    .page-text .bt-2 {
+        padding: 10px 10px;
+        border-radius: 0;
+    }
+
+    /* section-1 */
+    #section-1 {
+        margin-top: 30%;
+    }
+
+    #section-1 .section-text {
+        text-align: center;
+    }
+
+    #section-1 .section-text h2 {
+        font-size: 48px;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+
+    #section-1 .section-text p {
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+
+    #section-1 #card-3 {
+        margin-top: 3rem;
+    }
+
+    /* section 2 input section */
+    #section-2 .bag-txt {
+
+        font-size: 40px;
+        padding: 28px;
+    }
+
+    #section-2 .inpt-2 {
+        margin-top: 15px;
+        padding: 11px 35px;
+        outline: none;
+        border: none;
+        background-color: rgb(190, 190, 190);
+
+    }
+
+    #section-2 .inpt-2::placeholder {
+        font-style: italic;
+
+    }
+
+    #section-2 .btt-2 {
+        padding: 5px 11px;
+        border-radius: 0;
+        margin-top: 8px;
+    }
+
+    /* footer */
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* body{
+        background-color: rgb(53, 148, 6);
+    } */
+    .page-text .inpt {
+        padding: 14px 65px;
+        border-radius: 0;
+        outline: none;
+        margin: 10px;
+    }
+
+    .page-text .inpt::placeholder {
+        font-style: italic;
+
+    }
+
+    .page-text .bt-2 {
+        padding: 10px 47px;
+        border-radius: 0;
+    }
+
+    .info-text {
+        margin-top: 170px;
+    }
+
+    #section-1 #card-3 {
+        margin-top: 0;
+    }
+
+    /* Section 2 input section */
+
+    #section-2 .bag-txt {
+
+        font-size: 45px;
+        padding: 30px;
+    }
+
+    #section-2 .inpt-2 {
+        padding: 13px 45px;
+        outline: none;
+        border: none;
+        background-color: rgb(190, 190, 190);
+
+    }
+
+    #section-2 .inpt-2::placeholder {
+        font-style: italic;
+
+    }
+
+    #section-2 .btt-2 {
+        padding: 10px 18px;
+        border-radius: 0;
+        margin: auto;
+    }
+
+
+    /* footer */
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    /* body{
+        background-color: aqua;
+    } */
+    .page-text .inpt {
+        padding: 14px 65px;
+        border-radius: 0;
+        outline: none;
+        margin: 10px;
+    }
+
+    .page-text .inpt::placeholder {
+        font-style: italic;
+
+    }
+
+    .page-text .bt-2 {
+        padding: 10px 47px;
+        border-radius: 0;
+    }
+
+    .info-text {
+        margin-top: 170px;
+    }
+
+    /* section 2 input section */
+
+    #section-2 .bag-txt {
+
+        font-size: 45px;
+        padding: 30px;
+    }
+
+    #section-2 .inpt-2 {
+        padding: 13px 45px;
+        outline: none;
+        border: none;
+        background-color: rgb(190, 190, 190);
+
+    }
+
+    #section-2 .inpt-2::placeholder {
+        font-style: italic;
+
+    }
+
+    #section-2 .btt-2 {
+        padding: 10px 18px;
+        border-radius: 0;
+    }
+
+    /* footer */
+    .footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
