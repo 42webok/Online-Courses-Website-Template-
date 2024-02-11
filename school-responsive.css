@@ -7,11 +7,11 @@
 
     /* form  */
     .page-text {
-        margin-top: 180px;
+        margin-top: 150px;
     }
 
     .page-text h2 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
     .page-text p {
@@ -64,7 +64,7 @@
 
     #section-2 .inpt-2 {
         margin-top: 15px;
-        padding: 9px 5px;
+        padding: 9px 1px;
         outline: none;
         border: none;
         background-color: rgb(190, 190, 190);
@@ -103,7 +103,7 @@
     }
 
     #section-3 form .inpt-3 {
-        padding: 8px 13px;
+        padding: 8px 1px;
         border: none;
         outline: none;
         margin: 10px;
